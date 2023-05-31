@@ -22,6 +22,9 @@ const PokeCard = ({ url }) => {
     <article
       className={`poke-card border-${pokemon?.types[0].type.name}`}
       onClick={handleClick}
+      data-aos="fade-right"
+      data-aos-offset="410"
+      data-aos-easing="ease-in-sine"
     >
       <header className={`poke-card__header bg-${pokemon?.types[0].type.name}`}>
         <img

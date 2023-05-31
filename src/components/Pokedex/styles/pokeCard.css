@@ -5,6 +5,7 @@
     border: 0.4em solid rgb(56, 123, 61);
     background-color: rgba(248, 232, 232, 0.871);
     transition: transform 300ms;
+    cursor: pointer;
 
 }
 
